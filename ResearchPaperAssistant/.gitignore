@@ -1,0 +1,29 @@
+# Environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Chroma DB
+chroma_db/
+
+# Temp / uploads
+*.pdf
+tmp/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python version
+.python-version
