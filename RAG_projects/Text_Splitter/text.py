@@ -73,8 +73,8 @@ even a space in some tokenizers
 '''
 
 tok_splitter= TokenTextSplitter(
-    chunk_size=10,
-    chunk_overlap=2,
+    chunk_size=1000,
+    chunk_overlap=200,
 )
 
 tok_chunks=tok_splitter.split_documents(docs)
